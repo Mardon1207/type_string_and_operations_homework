@@ -7,4 +7,7 @@ def main(first,last):
     Returns:
         str: return answer.
     """
-    return 
+    return last+", "+frist
+frist=str(input())
+last=str(input())
+print(main())
