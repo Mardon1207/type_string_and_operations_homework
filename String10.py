@@ -7,4 +7,11 @@ def main(x,y):
     Returns:
         str: return answer.
     """
-    return 
+    return "("+x+"+"+y+")"+"*""2"+"="+s
+x=int(input())
+y=int(input())
+s=(x+y)*2
+x=str(x)
+y=str(y)
+s=str(s)
+print(main(x,y))
